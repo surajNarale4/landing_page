@@ -1,0 +1,21 @@
+.container{
+    border:2px solid gray;
+    background-color: beige;
+    padding:20px;
+}
+
+.cardsType{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.specificCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    gap:30px;
+}
+

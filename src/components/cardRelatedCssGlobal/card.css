@@ -1,0 +1,90 @@
+img{
+    height:300px;
+    width:300px;
+    object-fit:fit;
+    
+}
+
+.cardContainer{
+    background-color: white;
+    margin: 10px;
+    
+}
+
+.cardContainer .cardDescription{
+    margin:3px;
+    background-color: cadetblue;
+    color:white;
+}
+
+
+
+.specific-card-container{
+    height:600px;
+    width:300px;
+    background-color: white; 
+}
+
+.specific-card-container .image-container{
+ display: flex;
+ justify-content: space-evenly;
+
+}
+
+.specific-card-container img{
+   
+    height: 330px;
+    width:300px;
+    object-fit:fill;
+
+}
+
+.specific-card-container .card-description{
+    height: 100px;
+    width:100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    padding: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+   
+    
+}
+
+.specific-card-container .card-product-prize{
+    font-size: 30px;
+}
+
+
+.container .cart-body{
+    background-color:white;
+    margin: 10px;
+    border-radius: 20px;
+    min-height: 400px;
+}
+
+.container .flex{
+    display: flex;
+   
+}
+.container .wrap{
+    flex-wrap:wrap;
+}
+
+.container .direction-column{
+    flex-direction: column;
+}
+
+.container .gap{
+    gap:20px;
+}
+
+.container .justify-equally{
+    justify-content: space-evenly;
+}
+
+ 
+.container .cart-body .cart-card img{
+    object-fit: fill;
+}
